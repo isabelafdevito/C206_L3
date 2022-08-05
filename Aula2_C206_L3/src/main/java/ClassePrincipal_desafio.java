@@ -2,29 +2,31 @@ import java.util.Random;
 public class ClassePrincipal_desafio {
     public static void main(String[] args) {
 
-        Random gerador1 = new Random();
-        Random gerador2 = new Random();
-        Random gerador3 = new Random();
+        Random gerador = new Random();
+        int x = gerador.nextInt(100);
+        int y = gerador.nextInt(100);
+        int z = gerador.nextInt(100);
 
-        if ((gerador1.nextInt(100) % 2) == 0) {
-            System.out.println("Numero 1 eh par");
+
+        if ((x % 2) == 0) {
+            System.out.println("Numero " + x + " eh par");
         }
         else {
-            System.out.println("Numero 1 eh impar");
+            System.out.println("Numero " + x + " eh impar");
         }
 
-        if ((gerador2.nextInt(100) % 2) == 0) {
-            System.out.println("Numero 1 eh par");
+        if ((y % 2) == 0) {
+            System.out.println("Numero " + y + " eh par");
         }
         else {
-            System.out.println("Numero 1 eh impar");
+            System.out.println("Numero " + y + " eh impar");
         }
 
-        if ((gerador3.nextInt(100) % 2) == 0) {
-            System.out.println("Numero 1 eh par");
+        if ((z % 2) == 0) {
+            System.out.println("Numero " + z + " eh par");
         }
         else {
-            System.out.println("Numero 1 eh impar");
+            System.out.println("Numero " + z + " eh impar");
         }
     }
 
