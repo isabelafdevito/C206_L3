@@ -10,7 +10,7 @@ public class ClassePrincipal_exercicio3 {
         fornecedor[0] = new Fornecedor_exercicio3("Bebidas", 400);
         fornecedor[1] = new Fornecedor_exercicio3("Comidas", 300);
         fornecedor[2] = new Fornecedor_exercicio3("Talheres", 200);
-        
+
 
         restaurante.exibirInfos();
 
