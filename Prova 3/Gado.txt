@@ -1,0 +1,5 @@
+Compra
+1
+30
+angus
+70.0
